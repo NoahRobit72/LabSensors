@@ -1,9 +1,12 @@
 .alarm-header {
-    margin: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 .alarm-wrapper {
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -39,7 +42,7 @@
 }
 
 .edit-button {
-    background-color: #369;
+    background-color: #25A1B0;
     color: #fff;
 }
 

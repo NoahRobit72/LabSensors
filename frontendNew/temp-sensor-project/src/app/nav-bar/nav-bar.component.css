@@ -1,32 +1,38 @@
 .topnav {
-    background-color: #D3D3D3;
-    position: relative;
-    display: flex;
-    gap: 20%;
-    justify-content: center;
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px; /* Set a fixed height for the navbar, adjust as needed */
+}
+
+.logo {
+  max-height: 100px; /* Adjust the value as needed */
 }
 
 .topnav button {
-    text-align: center;
-    width: 200px;
+  text-align: center;
+  width: 200px;
 }
 
 button {
-    background-color: #eee;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    color: black;
-    font-size: 1.2rem;
-    padding: 1rem;
-    margin: 1rem;
-  }
-  button:hover {
-    background-color: black;
-    color: white;
-  }
-  button:disabled {
-    background-color: #eee;
-    color: #aaa;
-    cursor: auto;
-  }
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}

@@ -17,7 +17,7 @@
       <p>Humidity: {{ sensor.Humidity }}%</p>
       <p>Last updated: {{ convertEpochToDateTime(sensor.Time) | date:'short' }}</p>
       <p>Status: 
-        <span  [ngStyle]="{'color': sensor.Status === 'Offline' ? '#ff0000' : '#33cc33'}">
+        <span  [ngStyle]="{'color': sensor.Status === 'Offline' ? '#ff0000' : '#25A1B0'}">
           {{ sensor.Status}}
         </span>
       </p>
